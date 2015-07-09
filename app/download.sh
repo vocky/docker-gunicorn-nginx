@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "aws s3 cp" "$TIMO_APPLICATION_DATA" "$TIMO_LIB_DATA_PATH"
+cp "$TIMO_APPLICATION_DATA" "$TIMO_LIB_DATA_PATH"
